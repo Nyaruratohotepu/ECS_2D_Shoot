@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="EnemyFactory">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAIAABAAAAgABAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\EnemyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyInfo">
+    <Position X="30.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQACAkAICACAACAAQACBAAAAABAAABBAIIBASAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\EnemyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyPrototype">
+    <Position X="32" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\EnemyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttackManager">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAACAAAAAAAAAAAAAAQBAAAQAAAYA=</HashCode>
+      <FileName>Assets\Scripts\Manager\AttackManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ECSBootstrap">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAACAAAAQAAAAAAAAAAAAAAAAAAAQAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Manager\ECSBootstrap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemManager">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACIIBoCCAAMAAAACgRAAAAgAAAAAABAAAAAABACAA=</HashCode>
+      <FileName>Assets\Scripts\Manager\ItemManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIManager">
+    <Position X="32" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIAgAACAIAAAAMAACIAABAAEAEIACAAgAgQAAAQA=</HashCode>
+      <FileName>Assets\Scripts\Manager\UIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIManagerDeath">
+    <Position X="35.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Manager\UIManagerDeath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIManagerCity">
+    <Position X="34" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUQAAgAQCIQAIFIABIEQAACAgQAAAAgGAICAkAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Manager\UIManagerCity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AimMouseMove">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEBDAEACBBCAAIABgkIAAACCAIAQrRAADCACAAIAI=</HashCode>
+      <FileName>Assets\Scripts\Mono\AimMouseMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyHP">
+    <Position X="28.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAACAAQAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Mono\EnemyHP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeleeEnemyAttack">
+    <Position X="21.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAgAAAAAAAAACAAIAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Mono\MeleeEnemyAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerFire">
+    <Position X="25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggQAAAAAQCCAIAAAAAAAAAIACAAAACARAAAAAAAhQAA=</HashCode>
+      <FileName>Assets\Scripts\Mono\PlayerFire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHP">
+    <Position X="26.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Mono\PlayerHP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerPackage">
+    <Position X="28.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQCAQAAACAAAAAAAgIAAAAAAIAAAAABAAAAAAAIgBA=</HashCode>
+      <FileName>Assets\Scripts\Mono\PlayerPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletAttack">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="BulletAttack.BulletFilter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\System\BulletAttack.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\System\BulletAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyAISystem">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="EnemyAISystem.HatchFilter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\System\EnemyAISystem.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="EnemyAISystem.PlayerFilter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\System\EnemyAISystem.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABIAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\System\EnemyAISystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveSystem">
+    <Position X="23.25" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="MoveSystem.MoveFilter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\System\MoveSystem.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MoveSystem.MoveHybirdFilter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\System\MoveSystem.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\System\MoveSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MathTool">
+    <Position X="19.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Utility\MathTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletFactory">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAAgABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\BulletFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletInfo">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgACAAAgAQAABAAAAAAAAABAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\BulletInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeleeBulletInfo">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\BulletInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gun">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAEAAABAAAAAAAAAQAAAAAAAAAIAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\Gun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GunM4">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\GUns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GunPistol">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\GUns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GunAK47">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\GUns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GunFN2000">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\GUns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GunFusee">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\GUns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GunMP5">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\GUns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GunRevolver">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\GUns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BulletComponent" BaseTypeListCollapsed="true">
+    <Position X="24" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Component\BulletComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="EnemyAttackComponent" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAAAEAAIAAAAAAAAACAAAAAAAAAAAAAIABAQAA=</HashCode>
+      <FileName>Assets\Scripts\Component\EnemyAttackComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="EnemyComponent" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Component\EnemyComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="EnemyPatrolComponent" BaseTypeListCollapsed="true">
+    <Position X="23" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAQAgAACAACAAAAAAAAIAAAAAAAAABAACAACAA=</HashCode>
+      <FileName>Assets\Scripts\Component\EnemyPatrolComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="PlayerComponent" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Component\PlayerComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="VelocityComponent" BaseTypeListCollapsed="true">
+    <Position X="21" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Component\VelocityComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="ItemAmount">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAQgAAAAAQAAAgAAAAIAAAAAACAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Manager\ItemManager.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ItemDeltaLog">
+    <Position X="17.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Manager\ItemManager.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="ItemType">
+    <Position X="12.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Manager\ItemManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BulletType">
+    <Position X="7" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\BulletInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BulletDamageType">
+    <Position X="5.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\BulletInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GunAnimType">
+    <Position X="8.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\Gun.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GunTriggerType">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapon\Gun.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

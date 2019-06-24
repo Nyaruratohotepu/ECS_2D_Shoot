@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Map
+  - Enemy
+  - Player
+  - Bullet
+  - BG
+  - PickObj
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackgroundObject
+    uniqueID: 2506895091
+    locked: 0
+  - name: PickObj
+    uniqueID: 2040063715
+    locked: 0
+  - name: Map
+    uniqueID: 250941251
+    locked: 0
+  - name: Player
+    uniqueID: 1691935555
+    locked: 0
+  - name: Bullet
+    uniqueID: 3969025957
+    locked: 0
+  - name: Monster
+    uniqueID: 781258321
+    locked: 0
+  - name: ForegroundObject
+    uniqueID: 2006394223
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
